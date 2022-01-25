@@ -1,0 +1,51 @@
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.container {
+    padding: 0 150px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.header {
+    background-color: #293f50;
+}
+
+.header-top {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.dates {
+    text-align: right;
+}
+
+
+
+.header-right {
+    width: 100%;
+}
+
+.dedicated-to {
+    text-align: center;
+    margin: 0;
+}
