@@ -1,11 +1,19 @@
 body {
-    background-color: #fff;
     font-family: 'Lato', sans-serif;
+}
+
+.container-header {
+    padding: 0 150px;
     color: #fff;
 }
 
-.container {
+.container-header {
     padding: 0 150px;
+    background-color: #293f50;
+}
+
+.container-main {
+    background-color: #fff;
 }
 
 h1, h2, h3, p {
@@ -13,7 +21,6 @@ h1, h2, h3, p {
 }
 
 .header {
-    background-color: #293f50;
     padding: 40px 0;
 }
 
@@ -23,11 +30,11 @@ h1, h2, h3, p {
 
 .header-right {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .header-bottom {
-    padding: 22px 80px 66px 80px;
+    padding: 22px 80px 10px 80px;
 }
 
 .main-title {
@@ -51,6 +58,7 @@ h1, h2, h3, p {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .5px;
+    margin-top: 25px;
 }
 
 li {
@@ -70,7 +78,7 @@ li:last-child {
     color: #648880;
     font-weight: 300;
     text-align: center;
-    margin: 0;
+    margin: 30px 0 5px 0;
 }
 
 .every-year {
@@ -78,4 +86,24 @@ li:last-child {
     font-weight: 100;
     text-align: center;
     line-height: 1.8;
+}
+
+.btn {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px auto;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #293f50;
 }
