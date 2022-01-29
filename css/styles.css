@@ -1,58 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
-.container-header {
-    padding: 0 150px;
-    color: #fff;
+.container {
+    width: 960px;
+    margin: 0 auto;
 }
 
-.container-header {
-    padding: 0 150px;
-    background-color: #293f50;
-}
-
-.container-main {
-    background-color: #fff;
-}
-
-h1, h2, h3, p {
-    margin: 0;
-}
+/* Header */
 
 .header {
-    padding: 40px 0;
+    background-color: #293f50;
+    padding-top: 50px;
 }
 
 .header-top {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-right {
-    width: 100%;
-    padding-top: 20px;
+    margin-left: 115px;
 }
 
-.header-bottom {
-    padding: 22px 80px 10px 80px;
-}
-
-.main-title {
+.logo {
     font-weight: 100;
     font-size: 48px;
     letter-spacing: 0.5px;
     line-height: 44px;
+    color: #fff;
 }
 
 .dates {
     font-size: 21px;
     font-weight: 300;
     color: #648880;
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
 }
 
 .nav {
-    display: flex;
     list-style: none;
+    color: #fff;
+    width: 100%;
+}
+
+.nav-top {
+    display: flex;
+    text-transform: uppercase;
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 14px;
@@ -69,8 +70,17 @@ li:last-child {
     margin-right: 0;
 }
 
-.dates {
-    text-align: right;
+li:hover {
+    color: #648880;
+    cursor: pointer;
+}
+
+.header-bottom {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .dedicated-to {
@@ -78,7 +88,9 @@ li:last-child {
     color: #648880;
     font-weight: 300;
     text-align: center;
-    margin: 30px 0 5px 0;
+    display: grid;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .every-year {
@@ -86,10 +98,11 @@ li:last-child {
     font-weight: 100;
     text-align: center;
     line-height: 1.8;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .btn {
-    width: 120px;
     font-size: 16px;
     font-weight: 400;
     padding: 25px 30px;
@@ -97,13 +110,85 @@ li:last-child {
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
-    margin: 20px auto;
-    display: block;
     text-transform: uppercase;
     text-align: center;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .btn:hover {
     background-color: #fff;
     color: #293f50;
+}
+
+/* Main */
+
+.main-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.teaser-one, .teaser-two, .teaser-three {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.teaser-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.main-container {
+    padding: 60px 0 44px 0;
+}
+
+.teaser-title {
+    margin-bottom: 20px;
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.teaser-header {
+    margin: 20px 0 20px 0;
+    font-size: 21px;
+    font-weight: 300;
+    color: #648880;
+}
+
+.teaser-link {
+    text-decoration: none;
+}
+
+.teaser p {
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #293f50;
+}
+
+.footer-container {
+    padding: 44px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+small {
+    color: #648880;
 }
