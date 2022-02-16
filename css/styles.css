@@ -7,6 +7,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+    color: #648880;
+}
+
+p {
+    color: #888;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -39,7 +47,6 @@ body {
 .dates {
     font-size: 21px;
     font-weight: 300;
-    color: #648880;
     width: 100%;
     text-align: right;
     margin-top: 20px;
@@ -49,6 +56,11 @@ body {
     list-style: none;
     color: #fff;
     width: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .nav-top {
@@ -75,8 +87,14 @@ li:hover {
     cursor: pointer;
 }
 
+li a:hover {
+    color: #648880;
+    cursor: pointer;
+}
+
 .header-bottom {
-    padding: 60px 0;
+    padding-bottom: 60px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +103,6 @@ li:hover {
 
 .dedicated-to {
     font-size: 36px;
-    color: #648880;
     font-weight: 300;
     text-align: center;
     display: grid;
@@ -154,7 +171,6 @@ li:hover {
     margin: 20px 0 20px 0;
     font-size: 21px;
     font-weight: 300;
-    color: #648880;
 }
 
 .teaser-link {
@@ -162,7 +178,6 @@ li:hover {
 }
 
 .teaser p {
-    color: #888;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2;
@@ -191,4 +206,46 @@ li:hover {
 
 small {
     color: #648880;
+}
+
+.not-home {
+    padding-top: 44px;
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+.not-home h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.not-home p {
+    font-size: 21px;
+    line-height: 33px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+.speaker {
+    display: flex;
+}
+
+.aaron-irizarry-img {
+    display: block;
+    border-radius: 50%;
+    height: 130px;
+}
+
+.speaker-image {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    padding: 22px;
+    text-align: center;
+}
+
+.speaker-image ul {
+    list-style: none;
+}
+
+.speaker-image a {
+    text-decoration: none;
 }
