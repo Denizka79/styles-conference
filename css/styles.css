@@ -224,28 +224,58 @@ small {
     line-height: 33px;
     margin-left: 120px;
     margin-right: 120px;
+}
 
 .speaker {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.aaron-irizarry-img {
-    display: block;
-    border-radius: 50%;
-    height: 130px;
+.speaker-text {
+    width: 70%;
+    margin-right: 40px;
 }
 
-.speaker-image {
+.speaker-text p {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.speaker-info {
+    width: 30%;
+
+}
+
+.speaker-img-container {
     border: 1px solid #dfe2e5;
     border-radius: 5px;
     padding: 22px;
+    margin-top: 100px;
     text-align: center;
 }
 
-.speaker-image ul {
-    list-style: none;
+.speaker-img {
+    display: block;
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px auto 20px auto;
 }
 
-.speaker-image a {
+.speaker-img-container a {
     text-decoration: none;
+    display: block;
+    color: #648880;
+}
+
+.speaker-name, .speaker-credo-title, .speaker-credo, .speaker-will-do, .about-speaker-title, .about-speaker {
+    margin-bottom: 22px;
+}
+
+.speaker-name, .speaker-credo-title, .about-speaker-title {
+    font-weight: 400;
+}
+
+.speaker-credo-title, .about-speaker-title {
+    color: #a9b2b9;
 }
