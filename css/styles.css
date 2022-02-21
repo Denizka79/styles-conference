@@ -143,6 +143,7 @@ li a:hover {
 .main-container {
     display: flex;
     margin: 0 auto;
+    padding: 60px 0 44px 0;
 }
 
 .teaser-one, .teaser-two, .teaser-three {
@@ -154,10 +155,6 @@ li a:hover {
     width: 100%;
     height: auto;
     border-radius: 5px;
-}
-
-.main-container {
-    padding: 60px 0 44px 0;
 }
 
 .teaser-title {
@@ -226,10 +223,17 @@ small {
     margin-right: 120px;
 }
 
+/* Speakers */
+
 .speaker {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 60px;
+}
+
+.speaker:last-child {
+    padding-bottom: 60px;
 }
 
 .speaker-text {
@@ -278,4 +282,11 @@ small {
 
 .speaker-credo-title, .about-speaker-title {
     color: #a9b2b9;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #dfe2e5;
 }
