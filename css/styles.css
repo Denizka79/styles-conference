@@ -101,7 +101,7 @@ li a:hover {
     text-align: center;
 }
 
-.dedicated-to {
+.header-bottom-title {
     font-size: 36px;
     font-weight: 300;
     text-align: center;
@@ -110,7 +110,7 @@ li a:hover {
     margin-bottom: 5px;
 }
 
-.every-year {
+.header-bottom-paragraph {
     font-size: 24px;
     font-weight: 100;
     text-align: center;
@@ -293,4 +293,8 @@ small {
 
 td {
     border: 1px solid #dfe2e5;  
+}
+
+.not-home p {
+    font-weight: 300;
 }
