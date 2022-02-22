@@ -288,13 +288,58 @@ small {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    border: 1px solid #dfe2e5;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 td {
-    border: 1px solid #dfe2e5;  
+    border-top: 2px solid #dfe2e5;
+    vertical-align: top;
+    padding: 10px 0 21px 10px;
+    padding-left: 10px;
+    padding-top: 21px;
+}
+
+.first-cell {
+    border-top: 0;
+}
+
+.left-column {
+    text-align: right;
+    border: none;
+    padding-right: 20px;
 }
 
 .not-home p {
     font-weight: 300;
+}
+
+.event-block {
+    color: #648880;
+    font-size: 24px;
+}
+
+.evant-dates {
+    color: #a9b2b9;
+    vertical-align: middle;
+}
+
+.event-time {
+    color: #a9b2b9;
+    font-size: 14px;
+}
+
+.between-events {
+    color: #a9b2b9;
+}
+
+.event-description {
+    color: #888;
+    line-height: 1.5;
+}
+
+td h4 {
+    font-size: 18px;
+    color: #648880;
+    margin-bottom: 5px;
 }
