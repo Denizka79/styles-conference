@@ -7,6 +7,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5 {
     color: #648880;
 }
@@ -59,7 +63,6 @@ p {
 }
 
 .nav a {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -342,4 +345,41 @@ td h4 {
     font-size: 18px;
     color: #648880;
     margin-bottom: 5px;
+}
+
+.venue-contacts {
+    width: 33.33%;
+}
+
+.venue-map {
+    width: 66.66%;
+}
+
+iframe {
+    width: 100%;
+    height: 264px;
+    border: 0;
+}
+
+.four-seasons, .chicago-theatre {
+    display: flex;
+    margin: 66px 0 66px 0;
+}
+
+.four-seasons p, .chicago-theatre p  {
+    margin-bottom: 22px;
+}
+
+.four-seasons h2, .chicago-theatre h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.four-seasons a, .chicago-theatre a {
+    color: #648880;
+    border-bottom: 1px solid #dfe2e5;
+}
+
+.four-seasons a:hover, .chicago-theatre a:hover {
+    color: #a9b2b9;
 }
