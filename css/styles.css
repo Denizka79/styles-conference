@@ -383,3 +383,11 @@ iframe {
 .four-seasons a:hover, .chicago-theatre a:hover {
     color: #a9b2b9;
 }
+
+.register-container {
+    display: flex;
+}
+
+select {
+    display: block;
+}
