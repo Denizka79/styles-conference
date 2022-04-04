@@ -176,12 +176,13 @@ Main
 }
 
 .teaser-header {
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     font-size: 21px;
     font-weight: 300;
 }
 
 .teaser-link {
+    display: block;
     text-decoration: none;
 }
 
@@ -502,6 +503,11 @@ textarea {
         margin: 0 auto;
     }
 
+    .header-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .logo {
         text-align: center;
     }
@@ -513,5 +519,60 @@ textarea {
     .nav-top {
         justify-content: center;
         padding: 0;
+    }
+
+    .main-container {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-bottom {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .teaser-one, .teaser-two, .teaser-three {
+        width: 100%;
+    }
+
+    .teaser-link {
+        text-align: center;
+    }
+
+    .teaser-image {
+        width: 50%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .teaser-title, .teaser-header {
+        text-align: center;
+    }
+
+    .teaser-header {
+        margin: 10px 0;
+    }
+
+    .teaser-title {
+        margin-top: 20px;
+    }
+
+    .teaser p {
+        text-align: center;
+    }
+
+    .main-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    small {
+        text-align: center;
     }
 }
