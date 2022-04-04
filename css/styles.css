@@ -215,7 +215,7 @@ Footer
     letter-spacing: .5px;
 }
 
-small {
+.footer-copyright {
     color: #648880;
 }
 
@@ -572,7 +572,17 @@ textarea {
         justify-content: center;
     }
 
-    small {
+    .footer-left {
         text-align: center;
+    }
+
+    .nav-bottom li {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .nav-bottom {
+        padding-left: 0;
+        margin-top: 20px;
     }
 }
