@@ -24,7 +24,9 @@ p {
     margin: 0 auto;
 }
 
-/* Header */
+/*===============
+Header
+================*/
 
 .header {
     background-color: #293f50;
@@ -54,45 +56,6 @@ p {
     width: 100%;
     text-align: right;
     margin-top: 20px;
-}
-
-.nav {
-    list-style: none;
-    color: #fff;
-    width: 100%;
-}
-
-.nav a {
-    color: #fff;
-}
-
-.nav-top {
-    display: flex;
-    text-transform: uppercase;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: .5px;
-    margin-top: 25px;
-}
-
-li {
-    margin-right: 20px;
-}
-
-li:last-child {
-    margin-right: 0;
-}
-
-li:hover {
-    color: #648880;
-    cursor: pointer;
-}
-
-li a:hover {
-    color: #648880;
-    cursor: pointer;
 }
 
 .header-bottom {
@@ -141,7 +104,52 @@ li a:hover {
     color: #293f50;
 }
 
-/* Main */
+/*===============
+Nav
+================*/
+
+.nav {
+    list-style: none;
+    color: #fff;
+    width: 100%;
+}
+
+.nav a {
+    color: #fff;
+}
+
+.nav-top {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin-top: 25px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li:hover {
+    color: #648880;
+    cursor: pointer;
+}
+
+li a:hover {
+    color: #648880;
+    cursor: pointer;
+}
+
+/*===============
+Main
+================*/
 
 .main-container {
     display: flex;
@@ -183,7 +191,9 @@ li a:hover {
     line-height: 1.2;
 }
 
-/* Footer */
+/*===============
+Footer
+================*/
 
 .footer {
     background-color: #293f50;
@@ -226,7 +236,9 @@ small {
     margin-right: 120px;
 }
 
-/* Speakers */
+/*===============
+Speakers
+================*/
 
 .speaker {
     display: flex;
@@ -322,7 +334,11 @@ td {
     font-size: 24px;
 }
 
-.evant-dates {
+/*===============
+Schedule
+================*/
+
+.event-dates {
     color: #a9b2b9;
     vertical-align: middle;
 }
@@ -346,6 +362,10 @@ td h4 {
     color: #648880;
     margin-bottom: 5px;
 }
+
+/*===============
+Venue
+================*/
 
 .venue-contacts {
     width: 33.33%;
@@ -383,6 +403,10 @@ iframe {
 .four-seasons a:hover, .chicago-theatre a:hover {
     color: #a9b2b9;
 }
+
+/*===============
+Register
+================*/
 
 .register-container {
     display: flex;
@@ -462,4 +486,32 @@ textarea {
 .btn:hover {
     background-color: #77a198;
     color: #fff;
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    .header-top {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-right {
+        margin: 0 auto;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .dates {
+        text-align: center;
+    }
+
+    .nav-top {
+        justify-content: center;
+        padding: 0;
+    }
 }
