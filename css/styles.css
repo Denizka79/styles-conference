@@ -527,11 +527,6 @@ textarea {
         width: 100%;
     }
 
-    .nav-bottom {
-        justify-content: center;
-        flex-direction: column;
-    }
-
     .teaser-one, .teaser-two, .teaser-three {
         width: 100%;
     }
@@ -566,10 +561,39 @@ textarea {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 36px;
+    }
+
+    .dates {
+        font-size: 16px;
+    }
+
+    .nav-top {
+        font-size: 10px;
+    }
+
+    .nav-bottom {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header-bottom-title {
+        font-size: 28px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
 
     .footer-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
+        padding-top: 0;
+        padding-bottom: 20px;
     }
 
     .footer-left {
@@ -584,5 +608,10 @@ textarea {
     .nav-bottom {
         padding-left: 0;
         margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-bottom-paragraph {
+        font-size: 18px;
     }
 }
